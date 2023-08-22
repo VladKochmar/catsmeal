@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230205151332">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230822111943">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 	<div class="wrapper">
 		<header data-scroll="70" data-scroll-show class="header">
 			<div class="header__container">
-				<a href="index.html" width="154" class="header__logo"><img src="img/logo.svg" alt="Logo"></a>
+				<a href="index.html" class="header__logo"><img width="42" src="img/logo.svg" alt="Logo"></a>
 				<div class="header__menu menu">
 					<button type="button" class="menu__icon icon-menu"><span></span></button>
 					<nav class="menu__body">
@@ -27,7 +27,7 @@
 						</ul>
 					</nav>
 				</div>
-				<a href="index.html" width="42" class="header__mobile-logo"><img src="img/mobile-logo.svg" alt="Logo"></a>
+				<a href="index.html" class="header__mobile-logo"><img width="42" src="img/mobile-logo.svg" alt="Logo"></a>
 			</div>
 		</header>
 		<main class="page page_gray">
@@ -63,7 +63,7 @@
 												</div>
 												<div class="slide-order__item">
 													<label class="slide-order__label" for="lastname">Last name</label>
-													<input autocomplete="off" id="lastname" type="text" name="lastname" data-error="Ошибка" placeholder="Your last name" class="slide-order__input input">
+													<input autocomplete="off" data-required id="lastname" type="text" name="lastname" data-error="Write your last name" placeholder="Your last name" class="slide-order__input input">
 												</div>
 											</div>
 											<div class="slide-order__item">
@@ -72,11 +72,9 @@
 											</div>
 											<div class="slide-order__item">
 												<label class="slide-order__label" for="userphone">Phone number (optional)</label>
-												<input autocomplete="off" id="userphone" type="tel" name="userphone" data-error="Ошибка" placeholder="Your phone number" class="slide-order__input input">
+												<input autocomplete="off" data-required id="userphone" type="tel" name="userphone" data-error="Write your phone number" placeholder="Your phone number" class="slide-order__input input">
 											</div>
-											<div class="slide-order__text">
-												<p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-											</div>
+											<p class="slide-order__text">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
 										</div>
 										<div class="slide-order__footer">
 											<button type="button" class="slide-order-next button">Next step</button>
@@ -87,21 +85,21 @@
 											<div class="slide-order__inputs">
 												<div class="slide-order__item">
 													<label class="slide-order__label" for="streetname">Streetname</label>
-													<input autocomplete="off" id="streetname" type="text" name="streetname" data-error="Ошибка" placeholder="Your streetname" class="slide-order__input input">
+													<input autocomplete="off" id="streetname" type="text" name="streetname" data-required data-error="Write your streetname" placeholder="Your streetname" class="slide-order__input input">
 												</div>
 												<div class="slide-order__item">
 													<label class="slide-order__label" for="houseNumber">House number</label>
-													<input autocomplete="off" id="houseNumber" type="text" name="houseNumber" data-error="Ошибка" placeholder="Your house number" class="slide-order__input input">
+													<input autocomplete="off" id="houseNumber" type="text" name="houseNumber" data-required data-error="Write your house number" placeholder="Your house number" class="slide-order__input input">
 												</div>
 											</div>
 											<div class="slide-order__inputs">
 												<div class="slide-order__item">
 													<label class="slide-order__label" for="userzipcode">Zipcode</label>
-													<input autocomplete="off" id="userzipcode" type="text" name="userzipcode" data-error="Ошибка" placeholder="Your zipcode" class="slide-order__input input">
+													<input autocomplete="off" id="userzipcode" type="text" name="userzipcode" data-required data-error="Write your Zipcode" placeholder="Your zipcode" class="slide-order__input input">
 												</div>
 												<div class="slide-order__item">
 													<label class="slide-order__label" for="userCity">City</label>
-													<input autocomplete="off" id="userCity" type="text" name="userCity" data-error="Ошибка" placeholder="Your city" class="slide-order__input input">
+													<input autocomplete="off" id="userCity" type="text" name="userCity" data-required data-error="Write your city" placeholder="Your city" class="slide-order__input input">
 												</div>
 											</div>
 										</div>
@@ -151,7 +149,7 @@
 		</div>
 	</div>
 </div> -->
-	<script src="js/app.min.js?_v=20230205151332"></script>
+	<script src="js/app.min.js?_v=20230822111943"></script>
 </body>
 
 </html>

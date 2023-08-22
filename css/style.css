@@ -344,6 +344,12 @@ textarea.input {
   width: 0;
 }
 
+.form__error {
+  padding-top: 0.625rem;
+  color: #859367;
+  font-weight: 700;
+}
+
 .header {
   position: absolute;
   z-index: 15;
